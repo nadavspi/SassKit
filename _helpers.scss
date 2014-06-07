@@ -1,3 +1,4 @@
+// Courtesy of HTML5 Boilerplate
 %visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -9,6 +10,8 @@
   width: 1px;
 }
 
+// Courtesy of NIck Gallagher
+// http://nicolasgallagher.com/micro-clearfix-hack/
 %clearfix {
   clear: both;
   &:after {
