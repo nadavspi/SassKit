@@ -1,0 +1,40 @@
+%visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+%clearfix {
+  clear: both;
+  &:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+
+@mixin margin-x($margin) {
+  margin-left: $margin;
+  margin-right: $margin;
+}
+
+@mixin margin-y($margin) {
+  margin-top: $margin;
+  margin-bottom: $margin;
+}
+
+@mixin padding-x($padding) {
+  padding-left: $padding;
+  padding-right: $padding;
+}
+
+@mixin padding-y($padding) {
+  padding-top: $padding;
+  padding-bottom: $padding;
+}
+
