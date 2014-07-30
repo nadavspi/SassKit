@@ -1,0 +1,16 @@
+// Vertical pipe separated list
+.list--vertical {
+  @extend %clearfix;
+  list-style-type: none;
+ 
+  li {
+    float: left;
+ 
+    & + li {
+      &:before {
+        content: '|';
+        @include margin-x(8px);
+      }
+    }
+  }
+}
